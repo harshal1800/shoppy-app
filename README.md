@@ -1,5 +1,3 @@
-# shoppy-app
-
 # ShoppyGlobe - E-commerce Application
 
 ShoppyGlobe is a basic e-commerce web application built with React.  
@@ -34,7 +32,7 @@ It demonstrates key concepts such as API data fetching, Redux state management, 
 
 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/harshal1800/shoppy-app.git
 
 
@@ -67,3 +65,11 @@ This project is open source and available under the MIT License.
 
 Contact
 Created by Harshal Chavhan- feel free to reach out for any questions or feedback.
+
+git repository link :
+https://github.com/harshal1800/shoppy-app.git
+
+
+screenshots :
+![Home Page](ss (1).png)
+![cart page](ss (2).png)

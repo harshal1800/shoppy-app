@@ -18,12 +18,12 @@ const ProductItem = ({ product }) => {
         style={{ width: '100%', height: '150px', objectFit: 'cover', borderRadius: '6px' }}
       />
       <h3>
-        <Link to={`/products/${product.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Link to={`/products/${product.id}`} style={{ textDecoration: 'none', color: 'black' }}>
           {product.title}
         </Link>
       </h3>
-      <p>${product.price}</p>
-      <button onClick={handleAddToCart}>Add to Cart</button>
+     <p style={{ color: 'black' }}>${product.price}</p>
+ <button onClick={handleAddToCart}>Add to Cart</button>
     </div>
   );
 };

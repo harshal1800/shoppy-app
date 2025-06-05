@@ -6,8 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
-  font-synthesis: none;
+ font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,9 +25,10 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #242424;
-  color: rgba(255, 255, 255, 0.87);
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* background-color: #8e84c6; */
+  background-color: 	#cfcdcd;
+ color: rgba(14, 12, 12, 0.87);
+   font-family: cursive;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -53,6 +53,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  /* background-color: #8d90d7; */
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -74,7 +75,7 @@ button:focus-visible {
 
 /* Card style for product items */
 .product-card {
-  background-color: var(--card-bg, #1a1a1a);
+  background-color: var(--card-bg, #b7b6bc);
   border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);

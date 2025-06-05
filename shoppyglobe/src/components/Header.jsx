@@ -7,13 +7,13 @@ const Header = () => {
   const totalQuantity = cartItems.reduce((total, item) => total + item.quantity, 0);
 
   return (
-    <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', backgroundColor: '#f4f4f4' }}>
+    <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1px', backgroundColor: '#b7b6bc' }}>
       <h2>
-        <Link to="/" style={{ textDecoration: 'none', color: '#333' }}>ShoppyGlobe</Link>
+        <Link to="/" style={{ textDecoration: 'none', color: '#333',fontSize:'28px' }}>ShoppyGlobe</Link>
       </h2>
       <nav style={{ display: 'flex', gap: '1rem' }}>
-        <Link to="/" style={{ textDecoration: 'none' }}>Home</Link>
-        <Link to="/cart" style={{ textDecoration: 'none' }}>
+        <Link to="/" style={{ textDecoration: 'none' ,color: '#333',fontSize:'18px'}}>Home</Link>
+        <Link to="/cart" style={{ textDecoration: 'none', color: '#333',fontSize:'18px' }}>
           🛍️ Cart ({totalQuantity})
         </Link>
       </nav>
